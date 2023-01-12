@@ -1,0 +1,31 @@
+.Nav {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav_item {
+    padding: 5px;
+    background: #f8f8f8;
+    color: #333;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.Nav_item:hover {
+    background: #dadada;
+}
+
+.Nav_item.active::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    background: #ccc;
+    border-radius: 3px;
+}

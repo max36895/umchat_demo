@@ -1,0 +1,38 @@
+{
+  "name": "umbot-chat_demo",
+  "version": "1.0.0",
+  "description": "umChat demo example",
+  "keywords": [
+    "umchat",
+    "demo",
+    "example"
+  ],
+  "author": "Maxim-M",
+  "license": "MIT",
+  "main": "./src/index.tsx",
+  "dependencies": {
+    "@types/jest": "^29.2.5",
+    "@types/node": "^18.11.18",
+    "components": "0.1.0",
+    "react": "^18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "^5.0.1",
+    "umchat": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "react-router-dom": "^6.6.2",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
