@@ -1,0 +1,61 @@
+.UMChat_themes-custom {
+    --panel_width: inherit;
+    --panel_height: inherit;
+    --panel_header_bg: #333;
+    --panel_header_height: 30px;
+
+    --text_color: #000;
+    --contrast_text_color: #eee;
+    --unaccented_text_color: #bbb;
+    --link_text_color: #006aff;
+    --link_hover_text_color: #0057d0;
+    --link_active_text_color: #0043a6;
+
+    --font-family: sans-serif;
+    --font-size-s: 10px;
+    --font-size-m: 14px;
+    --font-size-mt: 18px;
+    --font-size-l: 20px;
+
+    --padding-s: 4px;
+    --padding-st: 6px;
+    --padding-m: 8px;
+    --padding-mt: 10px;
+    --padding-l: 12px;
+
+    --scrollbar_size: 3px;
+
+    --border-radius-xs: 2px;
+    --border-radius-s: 4px;
+    --border-radius-m: 6px;
+    --border-radius-l: 8px;
+
+    --inline-height-s: 18px;
+    --inline-height-m: 24px;
+    --inline-height-l: 40px;
+
+    --bg: #ddd;
+    --danger_bg: #d51239;
+    --unaccented_bg: #F2F4F6;
+    --unaccented_hover_bg: #F1F6FB;
+    --unaccented_active_bg: #EFF8FF;
+    --unaccented_border_color: #808080;
+    --unaccented_active_border_color: #858c9f;
+    --primary_bg: #f63cf3;
+    --primary_hover_bg: #de2fe4;
+    --primary_active_bg: #d61fd3;
+    --primary_same_hover_bg: rgba(228, 47, 225, 0.15);
+    --primary_same_active_bg: rgba(214, 31, 211, 0.25);
+    --secondary_bg: #8626a1;
+    --secondary_hover_bg: #742b88;
+    --secondary_active_bg: #662777;
+    --secondary_same_hover_bg: rgba(116, 43, 136, 0.15);
+    --secondary_same_active_bg: rgba(102, 39, 119, 0.25);
+    --translucent_dark_bg: rgba(255, 255, 255, .15);
+    --translucent_hover_dark_bg: rgba(255, 255, 255, .25);
+    --translucent_active_dark_bg: rgba(255, 255, 255, .35);
+    --border_color: #464646;
+
+    --user_msg_bg: #c2c2c2;
+    --bot_msg_bg: #8371af;
+}

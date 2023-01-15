@@ -1,0 +1,28 @@
+.demo_items {
+    font-size: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.demo_item {
+    margin: 7px;
+}
+
+.demo_item-link {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ececec;
+    padding: 4px 12px;
+    border-radius: 100px;
+}
+
+.demo_item-link:hover {
+    border-color: #ccc;
+}
+
+.demo_item-link:active {
+    background-color: #ececec;
+}

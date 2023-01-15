@@ -1,8 +1,7 @@
-import Nav from "./Nav";
+import Base from "./Base";
 
 export default function Error(_) {
-    return <>
-        <Nav/>
+    return <Base>
         <h2>Page not found</h2>
-    </>
+    </Base>;
 }

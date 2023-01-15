@@ -1,24 +1,16 @@
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import {default as Base} from './base';
-import {default as Absolute} from './absolute';
-import {default as VoiceControl} from './voiceControl';
+import {createBrowserRouter, RouterProvider, RouteObject} from "react-router-dom";
+import DemoList from "./default/DemoList";
 import {default as ErrorPage} from './default/Error';
 
 export default function App() {
-    const router = createBrowserRouter([
-        {
-            path: '/',
-            element: <Base/>,
-            errorElement: <ErrorPage />,
-        },
-        {
-            path: '/absolute',
-            element: <Absolute/>
-        },
-        {
-            path: '/voiceControl',
-            element: <VoiceControl/>
-        }
-    ]);
+    const routes: RouteObject[] = [];
+    DemoList.forEach((demo) => {
+        routes.push({
+            path: demo.path,
+            element: demo.demo,
+            errorElement: <ErrorPage/>
+        });
+    })
+    const router = createBrowserRouter(routes);
     return <RouterProvider router={router}/>;
 }
