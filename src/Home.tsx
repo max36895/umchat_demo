@@ -6,9 +6,9 @@ import './home.css';
 export default function Home() {
     return <div className="demo_items">
         {
-            DemoList.map((demo) => {
+            DemoList.map((demo, index) => {
                 if (demo.title) {
-                    return <div className="demo_item"><Link to={demo.path}
+                    return <div className="demo_item" key={index}><Link to={demo.path}
                                                             className="demo_item-link">{demo.title}</Link></div>
                 }
                 return null;
